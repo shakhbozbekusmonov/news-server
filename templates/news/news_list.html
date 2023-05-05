@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News list</title>
+</head>
+<body>
+    <h1>All news list</h1>
+    <ul>
+        {% for news in news_list %}
+            <li>{{ news.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
